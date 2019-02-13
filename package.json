@@ -1,0 +1,19 @@
+{
+  "name": "react-session",
+  "version": "1.0.0",
+  "description": "All the slides for the React Sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "sessions",
+    "ppt"
+  ],
+  "author": "Utkarsh Bhimte",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}

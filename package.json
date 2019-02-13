@@ -4,7 +4,11 @@
   "description": "All the slides for the React Sessions",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck ./ppt/session-one.mdx"
+    "start": "mdx-deck ./ppt/session-one.mdx",
+    "build": "mdx-deck build ./ppt/session-one.mdx",
+    "pdf": "mdx-deck pdf ./ppt/session-one.mdx",
+    "image": "mdx-deck screenshot ./ppt/session-one.mdx",
+    "help": "mdx-deck"
   },
   "keywords": [
     "react",

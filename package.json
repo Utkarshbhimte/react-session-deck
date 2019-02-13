@@ -4,7 +4,7 @@
   "description": "All the slides for the React Sessions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "mdx-deck ./ppt/session-one.mdx"
   },
   "keywords": [
     "react",

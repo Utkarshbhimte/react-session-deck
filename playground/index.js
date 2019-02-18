@@ -22,9 +22,9 @@ formDOM.addEventListener('submit', e => {
 			const results = movieData.Search
 
 			resultWrapDOM.innerHTML = `<div class="card">
-				<ul>
+				${!movieData.Error ? `<ul>
 					${results.map(r => `<li>${r.Title} (${r.Year})</li>`).join('')}
-				</ul>
+				</ul>` : `<span>${movieData.Error}</span>`}
 			</div>`
 		})
 

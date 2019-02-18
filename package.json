@@ -4,11 +4,7 @@
   "description": "All the slides for the React Sessions",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "pdf": "mdx-deck pdf deck.mdx",
-    "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
+    "start": "live-server ./playground"
   },
   "keywords": [
     "react",

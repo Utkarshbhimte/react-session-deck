@@ -1,0 +1,43 @@
+body{
+  width: 100vw;
+  min-height: 100vh;
+
+  /*  1. apply font  */
+  font-family: 'Noto Sans', sans-serif
+}
+
+
+
+
+
+
+
+
+/* secret styles, ...ssshh */
+
+.better-body{
+  color: white;
+  background:linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%) no-repeat;
+  background-size: cover;
+}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background: white;
+  border-radius: 4px;
+  color: #212121;
+  padding: 2rem;
+  box-shadow: 0 0 10px -5px;
+  margin-bottom: 1rem;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+#heading{
+  color: #036ED9;
+}
